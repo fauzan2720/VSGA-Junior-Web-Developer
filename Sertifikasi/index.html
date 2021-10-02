@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lembaga Sertifikasi Profesi</title>
+
+    <!-- merubah icon di tab title -->
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    
+    <!-- bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- library fontawesome -->
+    <script src="https://kit.fontawesome.com/b8a4c1841d.js" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <style>
+        .ls-none { list-style: none; }
+        .td-none { text-decoration: none; }
+        .list-horizontal { display: inline; float: left; padding: 0; }
+        .hover:hover { text-decoration: none; color: #dfdfdf !important; }
+        .text-hover:hover { text-decoration: underline; }
+        .bg-dark-green { background: #2b6861; }
+        .text-dark-green { color: #2b6861; text-decoration: none; }
+        .text-light-green { color: #7a7c7c; text-decoration: none; }
+    </style>
+</head>
+
+<body>
+    <!-- awal navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark-green">
+        <div class="container">
+            <div class="d-left mx-2">
+                <a href="https://www.facebook.com/lsp.td/" target="_blank"><i class="fab fa-facebook-f mx-1 text-light hover"></i></a>
+                <a href="https://www.instagram.com/lsp.td/" target="_blank"><i class="fab fa-instagram mx-1 text-light hover"></i></a>
+                <a href="https://www.youtube.com/channel/UCzzAznco5deIbDVZS4acb9w" target="_blank"><i class="fab fa-youtube mx-1 text-light hover"></i></a>
+                <a href="https://lspdigital.id" target="_blank" class="text-light fw-bold hover td-none">BNSP-LSP-1565-ID</a>
+            </div>
+            
+            <div class="d-flex mx-2">
+                <a href="login.html" class="text-light fw-bold hover mx-3 td-none">Login</a>
+                <a href="contact.html" class="text-light fw-bold hover td-none">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <!-- akhir navbar -->
+    
+    <!-- awal navbar sidebar -->
+    <nav class="shadow navbar navbar-expand-md navbar-light sticky-top bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <a href="#"><img src="img/icon.png" width="60"></a>
+                </div>
+
+                <div class="col">
+                    <ul class="m-0 mx-2 p-0" style="list-style-type: none; font-size: 13px;">
+                        <li>Kompeten</li>
+                        <li>Profesional</li>
+                        <li>Inovatif</li>
+                    </ul>
+                </div>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">      
+                <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-bold" aria-current="page" href="#"><i class="fas fa-home"></i> HOME</a>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">PROFIL</a>
+
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">LEMBAGA SERTIFIKASI PROFESI</a></li>
+                            <li><a class="dropdown-item" href="visi_misi.html">VISI & MISI</a></li>
+                            <li><a class="dropdown-item" href="#">STRUKTUR ORGANISASI</a></li>
+                            <li><a class="dropdown-item" href="#">STAKEHOLDER</a></li>
+                            <li><a class="dropdown-item" href="#">KOMITMEN KETIDAKBERPIHAKAN</a></li>
+                            <li><a class="dropdown-item" href="#">RENCANA STRATEGIS</a></li>
+                            <li><a class="dropdown-item" href="#">PROGRAM KERJA 2020</a></li>
+                            <li><a class="dropdown-item" href="#">MITRA KERJA</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">SERTIFIKASI</a>
+
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">SKEMA SERTIFIKASI</a></li>
+                            <li><a class="dropdown-item" href="#">TEMPAT UJI KOMPETENSI</a></li>
+                            <li><a class="dropdown-item" href="#">JADWAL ASESMEN</a></li>
+                            <li><a class="dropdown-item" href="#">ASESOR KOMPETENSI</a></li>
+                            <li><a class="dropdown-item" href="#">PEMEGANG SERTIFIKAT</a></li>
+                            <li><a class="dropdown-item" href="#">BNSP</a></li>
+                            <li><a class="dropdown-item fw-bold" href="#">PERMOHONAN SERTIFIKAT</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">MEDIA</a>
+
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" target="_blank" href="https://www.instagram.com/lsp.td/">INSTAGRAM</a></li>
+                            <li><a class="dropdown-item" target="_blank" href="https://www.facebook.com/lsp.td/">FACEBOOK</a></li>
+                            <li><a class="dropdown-item" target="_blank" href="https://www.youtube.com/channel/UCzzAznco5deIbDVZS4acb9w">YOUTUBE</a></li>
+                            <li><a class="dropdown-item" href="#">PODCAST</a></li>
+                            <li><a class="dropdown-item" href="#">HOT NEWS</a></li>
+                            <li><a class="dropdown-item" href="#">GALERI FOTO</a></li>
+                            <li><a class="dropdown-item" target="_blank" href="https://www.youtube.com/channel/UCzzAznco5deIbDVZS4acb9w">GALERI VIDEO</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">INFORMASI</a>
+
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">DOWNLOAD AREA</a></li>
+                            <li><a class="dropdown-item" href="#">LEMBAGA DIKLAT</a></li>
+                            <li><a class="dropdown-item" href="#">EVENT</a></li>
+                            <li><a class="dropdown-item" href="#">FAQ</a></li>
+                            <li><a class="dropdown-item" href="#">FLIP LEARNING</a></li>
+                            <li><a class="dropdown-item" href="#">RENCANA STRATEGIS</a></li>
+                            <li><a class="dropdown-item" href="#">PROGRAM KERJA 2020</a></li>
+                            <li><a class="dropdown-item" href="#">MITRA KERJA</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" aria-current="page" href="register.html">REGISTRASI</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- akhir navbar sidebar -->
+
+    <!-- awal jumbotron -->
+    <div class="p-5 text-white rounded bg-dark-green">
+        <div class="pb-5">
+            <h1 class="fw-bold">UNIT SKEMA LSP TEKNOLOGI DIGITAL</h1>
+            <hr>
+            <div class="row px-4">
+                <div class="col">
+                    <ul class="list-group list-group-flush">
+                        <li>IT MOBILITY AND INTERNET OF THINGS</li>
+                        <li>IT GOVERNANCE AND MANAGEMENT</li>
+                        <li>IT SERVICE MANAGEMENT SYSTEM</li>
+                        <li>IT SECURITY AND COMPLIANCE</li>
+                        <li>IT PROJECT MANAGEMENT</li>
+                        <li>IT MULTIMEDIA</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="list-group list-group-flush">
+                        <li>PROGRAMMING AND SOFTWARE DEVELOPMENT</li>
+                        <li>HARDWARE AND DIGITAL PERIPHERALS</li>
+                        <li>NETWORK AND INFRASTRUCTURE</li>
+                        <li>OPERATOR AND SYSTEM TOOLS</li>
+                        <li>DATA MANAGEMENT SYSTEM</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- akhir jumbotron -->
+
+    <!-- awal box -->
+    <div class="container">
+        <div class="card" style="margin-top: -50px;">
+            <div class="shadow rounded card-body">
+                <ul class="row ls-none">
+                    <div class="col-7">
+                        <li class="list-horizontal mx-2"><i class="fas fa-user-graduate fa-2x mt-4"></i></li>
+                        <li class="list-horizontal mx-2">
+                            <label for="floatingSelect">Skema</label>
+                            <select class="form-select mt-1" id="floatingSelect" aria-label="Floating label select example">
+                                <option disabled selected>Pilih Skema Sertifikasi</option>
+                                <option value="1">Digital Marketing</option>
+                                <option value="2">ICT Project Manager</option>
+                                <option value="3">Teknisi Telepon Seluler Reparasi Perangkat Keras</option>
+                            </select>
+                        </li>
+                    </div>
+
+                    <div class="col">
+                        <li class="list-horizontal mx-2"><i class="fas fa-map-marker-alt fa-2x mt-4"></i></li>
+                        <li class="list-horizontal mx-2">
+                            <label for="floatingSelect">Pilih Provinsi</label>
+                            <select class="form-select mt-1" id="floatingSelect" aria-label="Floating label select example">
+                                <option disabled selected>Di Provinsi Manakah Anda?</option>
+                                <option value="1">Jawa Timur</option>
+                                <option value="2">Jawa Barat</option>
+                                <option value="3">Jawa Tengah</option>
+                                <option value="4">DKI Jakarta</option>
+                            </select>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- akhir box -->
+
+    <section>
+        <div class="container text-center">
+            <p class="mt-4 fs-1">Lembaga Sertifikasi Profesi</p>
+            <h4 class="mt-3">Mengapa Kami?</h4>
+            <p class="mt-3 fs-5">Karena komitmen kami untuk meningkatkan kebertrimaan Sertifikat Kompetensi<br>
+                oleh industri baik di tingkat nasional maupun internasional.</p>
+
+            <div class="row mt-5 mb-5">
+                <div class="col">
+                    <i class="fas fa-map fa-4x text-dark-green"></i>
+                    <h5 class="mt-4">36 Skema Sertifikasi</h5>
+                    <p class="mt-3 mb-4">Skema / Profesi / Jabatan / Pekerjaan di bidang-<br>
+                        bidang strategis sektor Teknologi Informasi dan-<br>
+                        Komunikasi.</p>
+                    <a href="#" class="text-dark-green fw-bold">Jadwal Sertifikasi</a>
+                </div>
+                
+                <div class="col">
+                    <i class="fas fa-building fa-4x text-dark-green"></i>
+                    <h5 class="mt-4">300++ Link DUDI</h5>
+                    <p class="mt-3 mb-4">Perusahaan mitra LSP yang siap untuk menerima-<br>
+                        profesional bidang IT yang telah terverifikas,-<br>
+                        kompeten dan sesuai bidang keahliannnya.</p>
+                    <a href="#" class="text-dark-green fw-bold">Lowongan Pekerjaan</a>
+                </div>
+                
+                <div class="col">
+                    <i class="fas fa-child fa-4x text-dark-green"></i>
+                    <h5 class="mt-4">1000++ SDM Tersertifikasi</h5>
+                    <p class="mt-3 mb-4">Daftar tenaga kerja profesional yang telah-<br>
+                        tersertifikasi oleh LSP Teknologi Digital. Siap<br>
+                        untuk menjawab kebutuhan industri.</p>
+                    <a href="#" class="text-dark-green fw-bold">Mencari Talenta</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awal footer -->
+    <footer>
+        <div class="footer-copyright text-center py-1 pt-3 mt-5 bg-light">
+            <p>&copy; 2021 | <span class="fw-bold">Built by Fauzan Abdillah</span></p>
+            
+            <ul class="list-inline text-center">
+            <li class="list-inline-item"><a class="text-dark td-none text-hover" href="#">Home</a></li>
+            <li class="list-inline-item"><a class="text-dark td-none text-hover" href="#">Profil</a></li>
+            <li class="list-inline-item"><a class="text-dark td-none text-hover" href="#">Sertifikasi</a></li>
+            <li class="list-inline-item"><a class="text-dark td-none text-hover" href="#">Media</a></li>
+            <li class="list-inline-item"><a class="text-dark td-none text-hover" href="contact.html">Contact</a></li>
+            </ul>
+        </div> 
+    </footer>
+    <!-- Akhir footer -->
+</body>
+</html>

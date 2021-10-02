@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Minggu ke-7</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h1 class="text-center">Silahkan Order</h1>
+        <p id="akses" class="error"></p>
+        <form action="#login">
+            <button class="menu" id="menu1" onclick="return menu1()" value="0">Cappucino | Rp35.000</button>
+            <button class="menu" id="menu2" onclick="return menu2()" value="0">Green Tea Latte Rp40.000</button>
+            <button class="menu" id="menu3" onclick="return menu3()" value="0">Fish and Chips | Rp50.000</button>
+            <button class="menu" id="menu4" onclick="return menu4()" value="0">Tuna Sandwich Rp45.000</button>
+            <button class="menu" id="menu5" onclick="return menu5()" value="0">Mineral Water | Rp8.000</button>
+            <button class="menu" id="menu6" onclick="return menu6()" value="0">French Fries | Rp18.000</button>
+
+            <div class="hitung text-right">
+                <span>Total: Rp</span>
+                <span class="text-right" id="total">0</span>
+            </div>
+
+            <button type="submit" class="btn" id="hitung">Hitung</button>
+        </form>
+    </div>
+
+    <script src="menu.js"></script>
+</body>
+</html>
